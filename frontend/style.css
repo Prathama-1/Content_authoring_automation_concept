@@ -1,0 +1,146 @@
+/* body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  position:absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #00796b;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.glow {
+  animation: glowPulse 2s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd4;
+  }
+  50% {
+    text-shadow: 0 0 20px #00acc1, 0 0 30px #00acc1;
+  }
+  100% {
+    text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd4;
+  }
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #009688;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #00796b;
+}
+
+pre {
+  background-color: #fafafa;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+#three-container {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+} */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #00796b;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.glow {
+  animation: glowPulse 2s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd4;
+  }
+  50% {
+    text-shadow: 0 0 20px #00acc1, 0 0 30px #00acc1;
+  }
+  100% {
+    text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd4;
+  }
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #009688;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 1rem 0.5rem 0 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00796b;
+}
+
+pre {
+  background-color: #fafafa;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+#three-container {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  position: relative;
+}
